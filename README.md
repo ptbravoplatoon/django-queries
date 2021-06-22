@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 ## Release 1: Pass the Tests
 
-Once you've setup the app, your goal is to get all the tests passing. `cd` into `ormQueries` and run ` python manage.py test` to see the tests fail.  
+Once you've setup the app, your goal is to get all the tests passing. `cd` into `ormQueries` and run `python manage.py test` to see the tests fail.  You can also use the `--failfast` flag to only see one test at a time: `python manage.py test --failfast`.
 
 The `ProductCrud` class has a number of functions for you to implement. As you work, follow the test file & review the function names carefully. You'll need to write class methods to make the tests pass. Also, some of the queries will require you to import some modules and functions from `django.db.models`. 
 
