@@ -77,8 +77,8 @@ WSGI_APPLICATION = 'ormQueries.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'ormQueries',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR,'ormQueries.db'),
     }
 }
 
